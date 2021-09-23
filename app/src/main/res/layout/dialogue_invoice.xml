@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#fff"
+              android:id="@+id/ll_parent"
+              android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent"
+               android:layout_marginLeft="40dp"
+               android:layout_marginTop="20dp"
+               android:layout_marginRight="40dp"
+               android:layout_height="50dp"
+    android:src="@drawable/cp_withouticon_logo"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:padding="20dp"
+        >
+
+            <TextView android:layout_width="match_parent"
+                      android:padding="5dp"
+                      android:layout_marginTop="5dp"
+                      android:layout_gravity="center"
+                      android:id="@+id/tv_temp_1"
+                      android:gravity="center"
+                      android:text="@string/temporaryBaggage"
+                      android:textColor="@color/colorBlack"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:padding="5dp"
+                      android:gravity="center"
+
+                      android:id="@+id/tv_carrypark_co"
+                      android:text="@string/carryparkCoLtd"
+                      android:textColor="@color/colorBlack"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:padding="5dp"
+                      android:text="Tel 03-3564-2161"
+                      android:gravity="center"
+                      android:id="@+id/tv_telphone"
+                      android:textColor="@color/colorBlack"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:padding="5dp"
+                      android:text="@string/receipt"
+
+                      android:id="@+id/tv_receipt"
+                      android:gravity="center"
+                      android:textColor="@color/colorBlack"
+                      android:textSize="25sp"
+                      android:textStyle="bold"
+                      android:layout_height="wrap_content"/>
+
+
+
+            <TextView android:layout_width="match_parent"
+                      android:padding="5dp"
+                      android:layout_marginTop="5dp"
+                      android:textColor="@color/colorBlack"
+                      android:textSize="16sp"
+                      android:gravity="center"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="20dp"
+                      android:id="@+id/tv_amount"
+                      android:textStyle="bold"
+                      android:gravity="center"
+
+                      android:textColor="@color/colorBlack"
+                      android:textSize="18sp"
+                      />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="5sp"
+                android:background="@color/colorPrimary"/>
+
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/date_of_use"
+                      android:padding="5dp"
+                      android:gravity="center"
+                      android:layout_gravity="center"
+                      android:id="@+id/tv_date_of_use"
+                      android:textColor="@color/colorBlack"/>
+
+
+
+
+
+            <TextView android:layout_width="match_parent"
+                      android:padding="5dp"
+                      android:layout_marginTop="10dp"
+                      android:id="@+id/id_tex1"
+                      android:text="@string/iJustReceivedAbove"
+                      android:textColor="@color/colorBlack"
+                      android:layout_height="wrap_content"/>
+
+
+            <TextView android:layout_width="wrap_content"
+                      android:padding="5dp"
+                      android:layout_marginTop="5dp"
+                      android:text="@string/lookingForward"
+                      android:textColor="@color/colorBlack"
+                      android:id="@+id/id_tex2"
+                      android:layout_height="wrap_content"/>
+
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_download"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:clickable="true"
+                    android:background="@drawable/btnbg_curved_accent_red_bg"
+                    android:text="@string/invoiceDownload"
+                    android:textColor="@color/colorButtonWhite"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_button"
+                    android:layout_margin="20dp"
+
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/btn_close"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_margin="20dp"
+                    android:padding="5dp"
+                    android:clickable="true"
+                    android:background="@drawable/btnbg_curved_accent_red_bg"
+                    android:text="@string/close"
+                    android:textColor="@color/colorButtonWhite"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_button"
+
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,650 @@
+<resources>
+   <!-- <string name="USER_PREFERENCES">carry_park</string>
+    <string name="app_name">随身停车场</string>
+
+    <string name="title_dashboard">家</string>
+    <string name="title_notifications">更多</string>
+    <string name="title_profile">个人资料</string>
+    <string name="title_activity_login"></string>
+
+    <string name="welcome_carry_park">欢迎来到Carrypark</string>
+    <string name="choose_your_language">选择你的语言</string>
+    <string name="get_started">开始使用</string>
+
+
+    <string name="your_carry_park_account">您的Carrypark帐户</string>
+    <string name="tap_the_button_etc">如果您是新注册或已经有一个帐户，请登录</string>
+    &lt;!&ndash;<string name="i_am_a_new_user_etc">I A A NEW USER TO CARRY PARK</string>&ndash;&gt;
+    <string name="i_am_a_new_user_etc">我是新用户</string>
+    <string name="tap_the_button_etc_existing_user_etc">点击下面的按钮以在此设置您现有的\ n帐户</string>
+    &lt;!&ndash;<string name="i_am_an_existing_user_etc">I AM AN EXISTING USER OF CARRY PARK</string>&ndash;&gt;
+    <string name="i_am_an_existing_user_etc">登录</string>
+
+
+
+    <string name="create_new_account">创建一个新账户</string>
+
+    <string name="proceed">继续</string>
+    <string name="name">名称</string>
+    <string name="phonenumber">电话号码</string>
+    <string name="enter_pin">输入您的Carrypark 4位PIN码</string>
+    <string name="verify">校验</string>
+    <string name="success">成功</string>
+    <string name="exit_and_login"><![CDATA[退出并登录]]></string>
+    <string name="login">登录</string>
+    <string name="dont_have_an_accnt">还没有帐号？</string>
+    <string name="enter_email_sign_up">输入电子邮件</string>
+    <string name="error_field_required">这是必填栏</string>
+
+    <string name="error_invalid_email">不合规电邮</string>
+    <string name="your_accnt_created_succcessfully">您在Carrypark的帐户已成功创建。 享受我们的服务！
+    </string>
+    <string name="connect_device">连接设备</string>
+    <string name="change_language">改变语言</string>
+    <string name="change_pin">换针</string>
+    <string name="logout">登出</string>
+    <string name="scan_qr_code">扫描二维码</string>
+    <string name="Location">位置</string>
+    <string name="device">设备</string>
+    <string name="price">价钱</string>
+    <string name="pin_has_been_sent">An OTP has send to your email:</string>
+
+    &lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;
+    <string name="hello_blank_fragment">你好空白片段</string>
+    <string name="proceed_to_payment">继续付款</string>
+    <string name="lock_device">锁装置</string>
+    <string name="payment_received">已收到付款</string>
+    <string name="name_on_card">卡片上的名字</string>
+    <string name="card_number">卡号</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="code_cvv">代码（CVV）</string>
+    <string name="select_card">选择卡</string>
+    <string name="pay">付款</string>
+    <string name="save_this_card">保存此卡</string>
+    <string name="agree_with_terms_n_conditions"><![CDATA[同意条款和条件]]></string>
+    <string name="save">保存</string>
+    <string name="new_pin">新别针</string>
+    <string name="current_pin">当前引脚</string>
+    <string name="your_pin_changed_successfully">您的PIN码已成功更改</string>
+    <string name="exit_from_carry_park">从Carrypark注销</string>
+    <string name="device_locked">已锁定</string>
+
+
+    <string name="device_unlocked">设备已解锁</string>
+    <string name="carry_park_no">停车场编号： 1235368002</string>
+    <string name="how_to_lock">怎么锁？</string>
+    <string name="Forgot_PIN_title">忘记密码</string>
+    <string name="resendPIN">重新发送PIN码</string>
+    <string name="login_as_different_user">如果您已更改手机，请点击</string>
+    <string name="confirm_new_pin">确认新密码</string>
+    <string name="pin_changed">引脚已更改</string>
+    <string name="unlock">开锁</string>
+
+    <string name="cancel">取消</string>
+    <string name="rate_per_hour">每小时收费</string>
+    <string name="initial_payment_amount">最初的1小时数量</string>
+    <string name="payment_cancelled">付款已取消</string>
+    <string name="final_payment_amount">最终付款金额</string>
+    <string name="initial_payment">首期付款</string>
+    <string name="final_payment">最后付款</string>
+    <string name="payment_type">付款方式</string>
+    <string name="device_name">设备名称</string>
+    <string name="current_time">当前时间：</string>
+    <string name="hourlyRate">每小时收费</string>
+    <string name="estimated_cost_per_hour">每小时估计成本</string>
+    <string name="payment">付款</string>
+    <string name="final_">最后</string>
+    <string name="initial">初始</string>
+    <string name="HourlyRate">每小时收费</string>
+    <string name="start_time">开始时间:</string>
+    <string name="end_time">时间结束:</string>
+    <string name="duration_used">使用时间</string>
+    <string name="payment_amount">支付金额</string>
+    <string name="registration">注册</string>
+    <string name="alert">警报</string>
+    <string name="lock_instructions">锁指令</string>
+    <string name="enter_valid_email">输入有效的邮箱</string>
+    <string name="total_amount">总金额</string>
+    <string name="advance_amount">预付款</string>
+    <string name="balance_amount">余额</string>
+    <string name="additional_info">附加信息</string>
+    <string name="how_to_unlock">如何解锁？</string>
+    &lt;!&ndash;<string name="welcome_description">Automation of Carry Park Baggage</string>&ndash;&gt;
+    <string name="welcome_description">大件行李保管监控系统</string>
+    <string name="welcome_description_line2"><![CDATA[安防监控系统]]></string>
+    <string name="status">状态</string>
+    <string name="device_in_use">该设备目前无法使用</string>
+    <string name="video_inst_desc">随身行李寄存锁系统操作说明 </string>
+    <string name="no_locked_devices_found">找不到锁定的设备</string>
+    <string name="scan_feature_desc">使用扫描功能添加新的储物柜设备</string>
+    <string name="usage_amt">使用量</string>
+    <string name="are_u_sre_u_wnt_logout">您确定要注销吗？</string>
+    <string name="hi">你好</string>
+    <string name="scan_qr_descr">扫描锁上显示的QR码以连接设备</string>
+    //new
+    <string name="terms">注册即表示您同意Carrypark的
+    </string>
+
+    <string name="condition"><font color='#ED1B24'>
+        <u>隐私政策</u>
+    </font></string>
+    <string name="last">.</string>
+    <string name="ok">OK</string>
+    <string name="terms_condition">条款和条件</string>
+    <string name="search_nearestLocking_device">搜索最近的锁定装置</string>
+    <string name="forgot_pin">忘记密码</string>
+    <string name="title_activity_maps">地图</string>
+    <string name="scan">扫瞄</string>
+    <string name="get_direction">获取路线</string>
+    <string name="lock_descr">请正确放置袋子并放下操纵杆以确认锁定</string>
+    <string name="TapTheButtonBelowToScan">请在Carrypark的\ n顶部扫描QR码</string>
+    <string name="empty_phone">国家和手机不能为空
+    </string>
+
+    // price List
+    <string name="price_List">价目单价目表</string>
+    <string name="initial_fee">入会费</string>
+    <string name="hourly_price">每小时价格</string>
+    <string name="one_hr">1hrs</string>
+    <string name="two_hr">2hrs</string>
+    <string name="three_hr">3hrs</string>
+    <string name="four_hr">4hrs</string>
+    <string name="five_hr">5hrs</string>
+    <string name="basic_price">（基本价格）</string>
+    <string name="device_lock_detail">锁定已完成。 别忘了您的包包谢谢您使用Carrypark</string>
+    <string name="unlock_info">按下下方的解锁按钮以解锁锁并取出螃蟹</string>
+    <string name="agree_termsandcon">签名即表示您同意Carypark的服务条款和隐私政策
+    </string>
+
+    <string name="empty_pin">密码不能为空</string>
+    <string name="scan_info">扫描锁上显示的QR码\ n \ t \ t \ t \ t连接到设备</string>
+
+
+    <string name="successInfoLock">您的行李已办理登机手续。\ n请务必在办理登机手续之前归还行李</string>
+    <string name="successInfoUnlock">锁已被解锁，因此请记住携带行李。 我们期待再次使用Carrypark。</string>
+    <string name="InvalidDevice">扫描无效的设备</string>
+    <string name="resend_pin">没有收到PIN码吗？
+        <font color='#ED1B24'>
+            <u><b>重新发送PIN码</b></u>
+        </font></string>
+
+    <string name="otp_send">OTP成功发送到 </string>
+    <string name="acceptTermsCond">请接受条款和条件</string>
+    <string name="paymentFrmat">MMM d yyyy, h:mm a</string>
+    <string name="lock">锁</string>
+    <string name="pay_cal">工资 </string>
+    <string name="loading">正在加载...</string>
+    <string name="logOut">登出</string>
+    <string name="alipay_notsupport">支付宝现在不支持</string>
+
+    <string name="pin_notmatched">引脚不匹配</string>
+    <string name="otp_reg1">PIN验证邮件已发送至</string>
+    <string name="otp_reg2">点击邮件中的\'验证\'按钮。 您还会收到另一封包含PIN码的邮件。 使用该PIN码</string>
+    <string name="awaitingLock">付款已收到（等待锁定）</string>
+    <string name="camera_per">我们需要访问您的相机才能扫描QR码</string>
+    <string name="bluetooth_per">我们需要读写蓝牙设备状态</string>
+    <string name="write_per">我们需要读写蓝牙设备状态</string>
+    <string name="unlocked">谢谢</string>
+
+
+
+    <string name="devices">蓝牙LE设备</string>
+
+
+    <string name="location_denied_title">位置权限被拒绝</string>
+    <string name="successfully_connected">成功连接到设备</string>
+    <string name="device_auth_failed">设备不匹配。 请联系服务中心</string>
+    <string name="connected">连接成功</string>
+    <string name="reg_terms">请阅读使用条款，并在同意的情况下按“注册”按钮。 Carrypark根据我们的隐私政策处理您的信息</string>
+    <string name="terms_of_service">服务条款</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="close_popup">关</string>
+    <string name="pin_veri">请输入发送到您的电子邮件地址的PIN码</string>
+    <string name="credit_card_info">需要以下信用卡注册\ n进行付款</string>
+    <string name="deposit">报到</string>
+    <string name="takeOut">退房</string>
+    <string name="place">位置：</string>
+    <string name="place_video">地点</string>
+    <string name="deposit_time">存款时间</string>
+    <string name="video_l2">超额收费/ 1小时/ 100日元</string>
+
+    &lt;!&ndash;
+        <string name="video_l2">Over 2 hours 100 yen will be added every hours and payment will be made when you take out your baggage</string>
+    &ndash;&gt;
+    <string name="video_l1">基本费用/ 2小时/ 200日元</string>
+    <string name="deposit_time_">入金时间:</string>
+    <string name="please_note_">请注意:</string>
+
+    <string name="caution_msg">请先来接您的行李</string>
+    <string name="basic_pay">基本费用200日元</string>
+    <string name="payment_fee_">付款费用：</string>
+    <string name="video_loc1">请正确设置行李</string>
+    <string name="video_loc2"></string>
+    <string name="video_loc3"></string>
+    <string name="video_loc4"></string>
+
+    <string name="lock_tv2">请按下面的扫描按钮以托运下一个行李。</string>
+    <string name="unlock_tv1">请取出您的行李\ n我们期待再次使用Carrypark。
+    </string>
+    <string name="unlock_tv2">请按下面的扫描按钮取出下一个行李。
+    </string>
+    <string name="free">自由</string>
+    <string name="avilable_device">适用设备:</string>
+    <string name="in_use_device">正在使用</string>
+    <string name="basic_charge_unlock_info">基本费用/ 2小时/</string>
+    <string name="unlock_charge_info_one">外卖时会加收多余的费用 </string>
+    <string name="unlock_charge_info_teo"></string>
+    <string name="usage_time">使用时间:</string>
+    <string name="over_time">随着时间的推移:</string>
+    <string name="settlement_charge">结算费用：</string>
+    <string name="to_take_out_bagg">取出行李</string>
+    //unlock
+    <string name="streem_operation"></string>
+    <string name="opration_duration">点按解锁以升起锁定杆</string>
+    <string name="puch_unlock"></string>
+    <string name="finish">完</string>
+    <string name="basic_fee">基本费用 </string>
+    <string name="register">注册</string>
+
+
+    <string name="terms_of_service_data">您应对与交易相关的所有其他费用，收费或评估负责，无论是由交易实体，付款实体或另一第三方根据这些条款收取的费用，并且您同意支付所有交易费用以及服务（如果有）。
+
+        您应对使用您的Carrypark帐户发起的所有交易及相关交易费用负责。如果您允许他人访问或使用您的Carrypark帐户（个人或公司帐户），我们将视您是否允许它对待，并将对个人使用您的Carrypark帐户进行的所有交易负责。熊
+        Carrypark会通过在交易时收取付款方式来处理交易金额。如果没有一种有效的付款方式包括所有必需的付款信息，则可以立即停止或阻止完成交易的功能。如果您的付款方式被拒绝，您的Carrypark帐户可能会被阻止或终止。此外，Carrypark保留将任何未完成的交易费索偿移交给第三方的权利。
+        如果发生更改，您将独自负责及时更新所有付款信息。如果您由于付款信息不正确或过时而无法完成交易，我们将不承担任何责任。
+        并非所有设备位置都接受所有付款方式。某些设备位置可能需要您使用特定的付款方式。除您的Carrypark帐户外，这可能需要注册或注册才能创建一个与CaryPark帐户不同的帐户。
+        我们不对因设备位置不接受您注册的付款方式而导致的交易拒绝负责。为了避免在特定的设备位置被拒绝，您需要注册多种付款方式。 </string>
+
+    <string name="privacyPolicy">Carrypark会通过在交易时收取付款方式来处理交易金额。如果没有一种有效的付款方式包括所有必需的付款信息，则可以立即停止或阻止完成交易的功能。如果您的付款方式被拒绝，您的Carrypark帐户可能会被阻止或终止。此外，Carrypark保留将任何未完成的交易费索偿移交给第三方的权利。
+        如果发生更改，您将独自负责及时更新所有付款信息。如果您由于付款信息不正确或过时而无法完成交易，我们将不承担任何责任。
+        并非所有设备位置都接受所有付款方式。某些设备位置可能需要您使用特定的付款方式。除您的Carrypark帐户外，这可能需要注册或注册才能创建一个与CaryPark帐户不同的帐户。我们不对因设备位置不接受您注册的付款方式而导致的交易拒绝负责。为了避免在特定的设备位置被拒绝，您需要注册多种付款方式。
+        您可能有机会指定您希望使用该服务的付款方式。如果您的首选付款方式被拒绝或由于某种原因不被接受，服务将自动选择您已注册的另一种付款方式来完成交易。这个过程一直持续到找到注册的付款方式为止。这将使您能够完成交易以及您支付的所有交易费用。对于因注册付款方式产生的费用而产生的任何交易费用，资金短缺，其他费用，罚款或费用，我们概不负责。您仍然对我们承担任何未清交易费用的全责。
+        您受制于支付提供商与付款方式有关的适用条款，条件，限制和其他要求，并且我们不承担交易费用，资金不足或其他任何费用或通过付款评估的费用。不负责。与使用此类付款提供商进行交易相关联的提供商。
+        我们可能会就您的交易向您的信用卡或借记卡收取临时费用。这可能会减少可用资金。未用于完成交易的预批准资金将在72小时后释放。
+        如果您希望真诚地对交易价格提出异议，则必须在交易日期或任何适用的交易实体之日起30天内以书面形式通知（或此类短通知）。交易实体要求）。不遵循此程序即构成接受此类费用。
+        如果您有义务就使用服务而付款，则您将按月费率1.5％或最高法律费率（以较低者为准）支付所有未付的会费利息。
+        关于会员：
+        交易可能会产生服务费和每笔订单的退款费用。
+        在排定的锁定事件之前3小时取消会员资格锁定事件是免费的。但是，由交易实体规定的成员资格锁定事件的取消规则可能需要更长的时间。通知期。
+        如果在预定的会员锁定事件（或交易实体指定的任何其他期限）的3小时内取消，或者如果您取消，则将收取相当于原始会员费用100％的服务费。会发生。不要使用计划的成员资格锁。费用将通过付款方式收取。
+        Carrypark只是锁定费用的传递和跟踪功能，并且由于锁定费用直接支付给锁定包裹的设备位置的交易实体，因此您无法退还通过Carrypark支付的交易费用。
+        只有呼叫中心的授权成员和设施经理才能批准退款。</string>
+    <string name="return_to_login">从Carrypark注销</string>
+
+
+    <string name="are_you_check_out">您确定要退房吗</string>
+    <string name="are_you_check_in">您确定要签到吗</string>
+    <string name="scanQrcode">扫描二维码</string>
+    <string name="powerLow_unlock">电池电量太低</string>
+
+    <string name="powerLow">电池电量不足，无法使用，请检查另一个储物柜</string>
+    <string name="locker_not_range_lock">找不到储物柜设备。 </string>
+    <string name="locker_not_range_unlock">找不到储物柜设备。</string>
+    <string name="waiting_for">等待放下杠杆</string>
+    <string name="device_name_null">扫描的设备名称与服务器设备名称不匹配</string>
+    <string name="inuse">已锁定</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="permision">这些权限对于应用程序是必需的。 请允许访问。</string>
+    <string name="connecting_to">连接到</string>
+    <string name="macIdUsed">设备已注册</string>
+    <string name="uphold_handle">请保持手柄</string>
+    <string name="StartScan">请扫描</string>
+    <string name="deviceConfirmation">确定要使用吗</string>
+    <string name="confirm">确认</string>
+    <string name="home">家</string>
+    <string name="bleNotavbldesc">蓝牙不可用，请确保您的蓝牙已打开</string>
+    <string name="bleNotavbl">蓝牙不可用</string>
+
+    //Time outs
+    <string name="Timeout_Error">超时。 请再试一遍</string>
+    <string name="timout_payment">超时。 请再试一遍</string>
+    <string name="try_agin_scanning">请重试扫描</string>
+    <string name="tap_scan">超时。 请再试一遍</string>
+    <string name="Timeout_Error_lock_press">请点击锁定按钮</string>
+    <string name="Timeout_Error_unlock_press">请点击解锁按钮</string>
+    
+    <string name="tap_scan_to_read">点击扫描按钮以扫描QR码</string>
+    <string name="pay_failed">付款失败（未发生首笔付款）</string>
+    <string name="pay_cancelled">付款已取消</string>
+
+    <string name="edit_account">修改帐户详细信息</string>
+    <string name="help">救命</string>
+    <string name="change_email">更改电子邮件</string>
+    <string name="de_registraction">取消注册</string>
+    //Change Email
+    <string name="old_email">当前的电子邮件</string>
+    <string name="new_email">新邮件 </string>
+    <string name="confirm_new_email">确认电邮地址</string>
+    <string name="CommonQandA">共同 Q &amp; A</string>
+    <string name="inquiry_by_email">通过电子邮件查询</string>
+    <string name="Help_desk_solution">服务台</string>
+
+    //more
+    <string name="all_fields_required">所有字段均应填写</string>
+    <string name="Pin4lettr">密码应为4位数字</string>
+    <string name="Emailmismatch">新电子邮件和确认电子邮件不匹配</string>
+    <string name="de_reg_confirm">您要删除您的用户帐户吗？</string>
+    <string name="Tap_to_retry_bluetooth">正在连接，请稍候</string>
+    <string name="align_qrcode">将QR Code与框架对齐以进行扫描</string>
+
+
+    <string name="year">year</string>
+    <string name="day">day</string>
+    <string name="month">month</string>
+
+    <string name="noDeviceAvailable">没有更衣室</string>
+
+
+
+    <string name="enablelocation">请启用位置权限以查找最近的储物柜</string>
+
+
+    <string name="rescan">找不到储物柜设备。您确定要重新扫描吗</string>
+
+    <string name="change_phone_number">更改电话号码</string>
+    <string name="confirm_new_phone_number">确认新电话号码</string>
+    <string name="new_phone_number">新电话号码</string>
+    <string name="phone_numbers_donot_match">新电话号码和确认电话号码不匹配</string>
+
+    <string name="free_of_charges">付款费用：免费</string>
+    <string name="receipt">收据</string>
+    <string name="date_of_use">使用日期</string>
+    <string name="total_payment">总付款</string>
+    <string name="I_just_received_above">我刚收到以上</string>
+    <string name="temporary_baggage">临时行李寄存服务</string>
+    <string name="carrypark_co_ltd">携园有限公司</string>
+    <string name="address">东京涩谷区新南1-12-14</string>
+    <string name="contact_us">联系我们：</string>
+    <string name="looking_forward">显示发票</string>
+    <string name="download">下载</string>
+-->
+
+    <!--app level string files not screen based.So don't edit this-->
+    <string name="USER_PREFERENCES">carry_park</string>
+    <string name="app_name">随身停车场</string>
+
+    <!--Screen level text files-->
+    // Alert
+    <string name="alert">警报 !</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="emptyMobile">国家和手机不能为空</string>
+    <string name="invalidEmail">输入有效的邮箱</string>
+    <string name="pinEmpty">密码不能为空</string>
+    <string name="pinInvalid">密码应为4位数字</string>
+    <string name="pinLogValid">请输入有效的密码</string>
+    <string name="OTPResent">OTP成功发送到 </string>
+    <string name="OTPpromt">请输入发送到您的电子邮件地址的PIN码</string>
+    <string name="InvalidDevice">扫描无效的设备</string>
+    <string name="OperfailedExtnd">网络错误，请重试..</string>
+    <string name="btryPoweLock">电池电量不足，无法使用，请检查另一个储物柜</string>
+    <string name="btryPower">电池电量太低</string>
+    <string name="deviceAuth">设备不匹配。 请联系服务中心</string>
+    <string name="noDeviceAvailable">没有更衣室</string>
+    <string name="enablelocation">请启用位置权限以查找最近的储物柜</string>
+    <string name="lgmsg">您确定要注销吗？</string>
+    <string name="scanCheckinMsg">您确定要签到吗</string>
+    <string name="scanCheckOutMsg">您确定要退房吗</string>
+    <string name="pinmismatch">引脚不匹配</string>
+    <string name="pinChangeSuccess">您的PIN码已成功更改</string>
+    <string name="upholdHandle">请保持手柄</string>
+    <string name="deviceConfirmation">确定要使用吗</string>
+    <string name="timeoutError">超时。 请再试一遍</string>
+    <string name="success">成功</string>
+    <string name="scan">扫瞄</string>
+    <string name="inuse">正在使用</string>
+    <string name="welcome">欢迎来到Carrypark</string> <!--c-->
+    <string name="welSub1">大件行李保管监控系统</string>
+    <string name="welSub2"><![CDATA[安防监控系统]]></string>
+    <string name="getStarted">开始使用</string>
+    <string name="newUserLbl">如果您是新注册或已经有一个帐户，请登录</string>
+    <string name="newUserBtn">我是新用户</string>
+    <string name="newAccount">创建一个新账户</string>
+    <string name="fullName">名称</string>
+    <string name="phNumber">电话号码</string>
+    <string name="EmAddrs">电子邮件地址</string>
+    <string name="DOB">出生日期</string>
+    <string name="proceed">继续</string>
+    <string name="pin">销</string>
+    <string name="fpin">忘记密码</string>
+    <string name="termsandCondReg">请阅读使用条款，并在同意的情况下按“注册”按钮。 Carrypark根据我们的隐私政策处理您的信息</string>
+    <string name="register">注册</string>
+    <string name="terms">服务条款</string>
+    <string name="privacy"><font color='#ED1B24'>
+       隐私政策
+    </font></string>
+    <string name="close">关</string>
+    <string name="acceptTermsCond">请接受条款和条件</string>
+    <string name="login">登录</string>
+    <string name="diffrntUser">如果您已更改手机，请点击</string>
+    <string name="forgotPin">如果您忘记了PIN码，请点击</string>
+    <string name="dont_have_an_accnt">还没有帐号？</string>
+    <string name="creatAcc">创建帐号</string>
+    <string name="enterPin">输入密码</string>
+    <string name="btnSearchLocation">搜索最近的锁定装置</string>
+    <string name="btnResendOtp">重新发送PIN码</string>
+    <string name="btnSendPIN">发送</string>
+    <string name="macIdUsed">设备已注册</string>
+    <string name="lblDintGetPin">没有收到PIN码吗？
+        <font color='#ED1B24'>
+            <u><b>重新发送PIN码</b></u>
+        </font></string>
+    <string name="supportedPayment">需要以下信用卡注册\ n进行付款</string>
+    <string name="tapToScan">请在Carrypark的\ n顶部扫描QR码</string>
+    <string name="termsAndConditionsDes">本协议（以下称本协议由Carry Park Co.，Ltd.携带。使用，临时存放
+它定义了服务（以下称为此服务）的使用条款。所有用户（以下称为“用户”均可根据这些条款使用此服务）。
+本协议可能会更改。如果有更改，请在更改前一个月访问我们的网站。
+我会宣布。
+
+第1条（使用方法）
+要使用此服务，请输入您正在使用的目的地上安装的CP设备的QR码。
+您可以通过在智能手机上阅读并下载应用程序来使用它。
+
+第2条（使用时间）
+该服务的使用时间因要使用的安装位置而异，因此请在使用前先进行检查。
+请给我。
+2.此外，如果公司在紧急情况下认为必要，则可能会限制或暂停处理。
+
+第三条（使用费）
+这项服务的使用费视安装位置而定。使用前请检查。
+
+第4条（后退限制）
+在此服务中，唯一可以保存的袋子是随身携带的袋子，可以锁定并带有提手。
+长，宽和宽的总和为170厘米或更小，总重量为30千克或更小。
+
+第5条（拒绝羁押）
+我们将无法保留装有下一个油炸食品的袋子等。
+贵重物品（现金，现金卡，预付卡，证券，珠宝，贵金属，书法，古董，
+30,000日圆以上的使用者，相机等贵重物品，贵重物品，文件，资料等
+高价商品
+挥发性或有毒物质或爆炸物或其他危险物质
+尸体，尸体，尸体
+非法物品，例如被盗物品，枪支和剑等物品，根据法律禁止拥有和携带，以及
+可能用于犯罪的事物
+散发出臭味的，肮脏的，易于变质或变质的或污染CP设备的那些
+可能损坏的东西
+动物，过失（总重量超过30千克）和其他不适合存放的物品
+2.当很明显上述物品被包含时，或怀疑它们时，
+我们将采取适当的措施，例如开放，分开存放和处置。
+
+第6条（使用期限和回收）
+该服务应连续3天，包括开始使用日期。如果用户仍将袋子存放在同一CP设备中超过4天，请将袋子移动到另一个位置并使用30天（包括使用开始日期）。
+我会保留一段时间。但是，作为存储期间的费用，请将相当于CP设备一天使用费用的金额乘以存储天数。
+存储量将相同。
+2.另外，如果您从储存开始30天后仍未收集物品，则用户
+假设权利已被放弃，我们将处理袋子，处置价格为仓储费。
+
+第七条（用户责任）
+用户应对用户对公司或第三方造成的损害负责，例如对CP设备的损坏或对另一CP设备的背面的损坏。
+
+第八条（我公司的免责声明）
+如果CP设备的背面受到损坏或损坏，我们将不承担任何责任。
+
+第9条（个人信息的处理）
+对于使用此服务获得的个人信息，我们将遵守我们的“隐私政策”。
+正确处理。
+
+第十条（适用法律/管辖权）
+在解释本协议时，应以日本法律为准据法。
+2.如果对此服务有争议，我们完全同意对我们总部所在地具有管辖权的法院。
+管辖法院。
+仅此而已
+联系方式：info@carrypark.com</string>
+    <string name="scanqrCmraBtm">将QR Code与框架对齐以进行扫描</string>
+    <string name="newPhone">新电话号码</string>
+
+    <string name="scaninfo">扫描锁上显示的QR码以连接设备</string>
+    <string name="termsAndConditionsPrivacy"></string>
+    <string name="scanqr">扫描二维码</string>
+    <string name="startScan">请扫描</string>
+    <string name="connetDev">连接设备</string>
+    <string name="hi">你好</string>
+    <string name="device">设备</string>
+    <string name="price">价钱</string>
+    <string name="oldDev">该设备目前无法使用</string>
+    <string name="gtDirection">获取路线</string>
+    <string name="priceList">价目单价目表</string>
+    <string name="deposit">报到</string>
+    <string name="takeOut">退房</string>
+    <string name="changePin">换针</string>
+    <string name="changeEmail">更改电子邮件</string>
+    <string name="changePhone">更改电话号码</string>
+    <string name="confirmNewPhone">确认新电话号码</string>
+    <string name="deregister">取消注册</string>
+    <string name="logout">登出</string>
+    <string name="help">救命</string>
+    <string name="CommonQandA">共同 Q &amp; A</string>
+    <string name="mailSend">通过电子邮件查询</string>
+    <string name="helpDesk">服务台</string>
+    <string name="editAccountDetails">修改帐户详细信息</string>
+    <string name="currentEmail">当前的电子邮件</string>
+    <string name="newEmail">新邮件 </string>
+    <string name="confirmNewEmail">确认电邮地址</string>
+    <string name="save">保存</string>
+    <string name="newPin">新别针</string>
+    <string name="comfnewPin">确认新密码</string>
+    <string name="currentPin">当前引脚</string>
+    <string name="instuct">随身行李寄存锁系统操作说明 </string>
+    <string name="procedPay">继续付款</string>
+    <string name="pay">付款</string>
+    <string name="exitApp">从Carrypark注销</string>
+    <string name="lock">锁</string>
+    <string name="unlock">开锁</string>
+    <string name="hrlyRateNew">每小时价格</string>
+    <string name="initialNew">入会费</string>
+    <string name="paymentType">付款方式</string>
+    <string name="timeOut">超时</string>
+    <string name="initial">初始</string>
+    <string name="fPaymnt">最后</string>
+    <string name="overtime">随着时间的推移:</string>
+    <string name="finish">完</string>
+    <string name="intiHrRate">每小时收费</string>
+    <string name="crrntTime">当前时间：</string>
+    <string name="strtTime">开始时间:</string>
+    <string name="endTime">时间结束:</string>
+    <string name="timeDur">使用时间</string>
+    <string name="takeOutBag">取出行李</string>
+    <string name="totalAmount">总金额</string>
+    <string name="paymentDateFormat">MMM d yyyy, h:mm a</string>
+    <string name="basicPrice">（基本价格）</string>
+    <string name="deposit_time">存款时间</string>
+    <string name="deposit_time_">入金时间:</string>
+    <string name="plsNote">请注意:</string>
+    <string name="plsNoteDtl">请先来接您的行李</string>
+    <string name="payment_fee_">付款费用：</string>
+    <string name="paymentScss">已收到付款</string>
+    <string name="free_of_charges">付款费用：免费</string>
+    <string name="giffInst">请正确设置行李</string>
+    <string name="unlockInfo">点按解锁以升起锁定杆</string>
+    <string name="successInfoLock">您的行李已办理登机手续。\ n请务必在办理登机手续之前归还行李</string>
+    <string name="successInfoLockRed">请按下面的扫描按钮以托运下一个行李。</string>
+    <!--
+        <string name="successInfoUnlock">请取出您的行李\ n我们期待再次使用Carrypark。</string>
+    -->
+    <string name="successInfoUnlock">锁已被解锁，因此请记住携带行李。 我们期待再次使用Carrypark。</string>
+    <string name="successInfoUnlockRed">请按下面的扫描按钮取出下一个行李。
+    </string>
+    <string name="succUnlock">谢谢</string>
+    <string name="succLock">已锁定</string>
+    <string name="noLockedDev">找不到锁定的设备</string>
+    <string name="noLockedDescp">使用扫描功能添加新的储物柜设备</string>
+    <string name="bleNotavbldesc">蓝牙不可用，请确保您的蓝牙已打开</string>
+    <string name="bleNotavbl">蓝牙不可用</string>
+    <string name="alipayNotSupport">支付宝现在不支持</string>
+    <string name="bltNotDiscoverChkOut">找不到储物柜设备。</string>
+    <string name="bltNotDiscoverChkIn">找不到储物柜设备。 </string>
+    <string name="leverDownAlert">等待放下杠杆</string>
+    <string name="tapLockButton">请点击锁定按钮</string>
+    <string name="PaymentCancelled">付款已取消</string>
+    <string name="bleReScan">找不到储物柜设备。您确定要重新扫描吗</string>
+    <string name="free">自由</string>
+    <string name="Location">位置</string>
+    <string name="deRegister">您要删除您的用户帐户吗？</string>
+    <string name="allEmailNeed">所有字段均应填写</string>
+    <string name="Emailmismatch">新电子邮件和确认电子邮件不匹配</string>
+    <string name="phoneNumMismatch">新电话号码和确认电话号码不匹配</string>
+    <string name="bleSearching">正在连接，请稍候</string>
+    <string name="receipt">收据</string>
+    <string name="temporaryBaggage">临时行李寄存服务</string>
+    <string name="carryparkCoLtd">携园有限公司</string>
+    <string name="iJustReceivedAbove">我刚收到以上</string>
+    <string name="lookingForward">显示发票</string>
+    <string name="contactUs">联系我们：</string>
+    <string name="invoiceDownload">下载</string>
+    <string name="show_invoice">显示发票</string>
+    <string name="payment">付款</string>
+    <!-- required for android-->
+    <string name="home">家</string>
+    <string name="title_notifications">更多</string>
+    <string name="device_name">设备名称</string>
+    <string name="unlock_charge_info_one">外卖时会加收多余的费用 </string>
+    <string name="avilable_device">适用设备:</string>
+    <string name="place">位置：</string>
+    <string name="date_of_use">使用日期</string>
+    <string name="ok">OK</string>
+    <string name="tap_the_button_etc_existing_user_etc">点击下面的按钮以在此设置您现有的\ n帐户</string>
+    <string name="carry_park_no">停车场编号： 1235368002</string>
+    <string name="change_language">改变语言</string>
+    <string name="camera_per">我们需要访问您的相机才能扫描QR码</string>
+    <string name="no_internet">没有网络连接</string>
+    <string name="validation_error">验证错误</string>
+    <string name="please_try_again">出了些问题。 请再试一遍</string>
+    <string name="pairing_request">请求配对\ n->执行配对步骤。 重新连接</string>
+    <string name="bluetooth_not_support">蓝牙不支持</string>
+    <string name="all_pin_required">必须输入所有PIN信息</string>
+    <string name="location_permission_title">需要位置许可</string>
+    <string name="location_permission_message">此应用程序不使用位置信息，但是扫描蓝牙LE设备需要此权限</string>
+    <string name="location_denied_title">位置权限被拒绝</string>
+    <string name="location_denied_message">由于未授予位置权限，因此该应用无法扫描Bluetooth LE设备。</string>
+    <string name="locationacees1">此应用需要位置访问权限</string>
+    <string name="locationaccess2">请授予位置访问权限，以便此应用可以检测外围设备。</string>
+    <string name="selected_today">选择了今天的日期，请选择另一个</string>
+
+    <string name="Failed_connected">无法连接到设备</string>
+    <string name="init_pay">未发生首笔付款</string>
+    <string name="iswebchat">WebChat现在不支持</string>
+    <string name="hrs">24小时</string>
+    <string name="done">完成</string>
+    <string name="empty_dob">请选择出生日期</string>
+    <string name="not_reg">您还没有注册.</string>
+    <!--<string name="lcked">已锁定</string>-->
+    <string name="enter_username">输入名字</string>
+    <string name="phone_eror">电话号码的长度必须为4-14</string>
+    <string name="nationality">国籍</string>
+    <string name="emptycountry">国籍不能为空</string>
+
+    <string name="version">版本: 16.0.1</string>
+    <string name="search">搜索</string>
+    <string name="api_error">目前无法使用</string>
+    <string name="api_error_error_msg">设备信息不匹配</string>
+
+
+
+    <string name="ErrorMessage">储物柜设备发生错误<br>请使用下面的联系信息尽快与我们联系。</br><br>很抱歉给您带来不便。</br></string>
+
+    <string name="MaintenanceCompany">联系公司名称 : </string>
+    <string name="MaintenancePerson">负责人姓名 : </string>
+    <string name="MaintenancePersonEmail">联系电子邮件地址 : </string>
+    <string name="MaintenancePersonPhone">联系电话 : </string>
+
+</resources>

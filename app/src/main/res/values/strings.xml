@@ -1,0 +1,232 @@
+<resources>
+
+    <!--app level string files not screen based.So don't edit this-->
+    <string name="USER_PREFERENCES">carry_park</string>
+    <string name="app_name">Carrypark</string>
+    <!--Screen level text files-->
+    // Alert
+    <string name="alert">Alert !</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="emptyMobile">Country and Mobile cannot be empty</string>
+    <string name="invalidEmail">Enter a valid email</string>
+    <string name="pinEmpty">Pin cannot be empty</string>
+    <string name="pinInvalid">Pin should contain 4 digits</string>
+    <string name="pinLogValid">Please enter a valid pin</string>
+    <string name="pinmismatch">New Pin and Confirmation Pin do not match</string>
+
+
+
+    <string name="OTPResent">OTP successfully send to </string>
+    <string name="OTPpromt">Please enter the PIN sent to your email address</string>
+    <string name="InvalidDevice">Invalid Device Scanned</string>
+    <string name="OperfailedExtnd">Network error please try again..</string>
+    <string name="btryPoweLock">Battery is too low to use please check another locker</string>
+    <string name="btryPower">Battery power is low</string>
+    <string name="deviceAuth">The devices do not match. Please contact service center</string>
+    <string name="noDeviceAvailable">No locker available</string>
+    <string name="enablelocation">Please enable location permissions for find nearest locker</string>
+    <string name="lgmsg">Are you sure you want to logout?</string>
+    <string name="scanCheckOutMsg">Are you sure you want to checkout?</string>
+    <string name="scanCheckinMsg">Are you sure you want to checkin?</string>
+    <string name="pinChangeSuccess">Pin number changed</string>
+    <string name="deviceConfirmation">Are you sure you want to use</string>
+    <string name="timeoutError">Timeout. Please try again</string>
+    <string name="success">Success</string>
+    <string name="scan">Scan</string><!--c-->
+    <string name="inuse">In use</string>
+    <string name="welcome">Welcome to Carrypark</string> <!--c-->
+    <string name="welSub1">Large baggage custody monitoring sysetm</string><!--c-->
+    <string name="welSub2"><![CDATA[Security & Monitoring System]]></string>
+    <string name="getStarted">Get Started</string> <!--c-->
+    <string name="newUserLbl">If you are newly registered or already have an account, Please login</string>
+    <string name="newUserBtn">I am a new user</string>
+    <string name="newAccount">Create a new account</string>
+    <string name="fullName">Name</string>  <!--name-->
+    <string name="phNumber">Phone Number</string> <!--phonenumber-->
+    <string name="EmAddrs">Email Address</string>  <!--email_address-->
+    <string name="DOB">Date of Birth</string>
+    <string name="proceed">Proceed</string>
+    <string name="pin">Pin</string>
+    <string name="fpin">Forgot Pin?</string>
+    <string name="termsandCondReg">Please read the Terms of Use and press the “Register” button only if you agree. Carrypark handles your information in accordance with our privacy policy</string>
+    <string name="register">Register</string>
+    <string name="terms">Terms of service</string>
+    <string name="privacy"><font color='#ED1B24'>
+       privacy policy
+    </font></string>
+    <string name="close">Close</string>
+    <string name="acceptTermsCond">Please accept terms and conditions</string>
+    <string name="login">Login</string>
+    <string name="diffrntUser">Tap if you have changed mobile</string>
+    <string name="forgotPin">Tap if you have forgotten your PIN</string>
+    <string name="dont_have_an_accnt">Don\'t have an account?</string>
+    <string name="creatAcc">Create Account</string>
+    <string name="enterPin">Enter your PIN</string>
+    <string name="btnSearchLocation">Search Nearest Locking Device</string>
+    <string name="btnResendOtp">Resend PIN</string>
+    <string name="btnSendPIN">Send</string> <!--send-->
+    <string name="macIdUsed">Device is already registered</string>
+    <string name="lblDintGetPin">Didn\'t receive the PIN?.
+        <font color='#ED1B24'>
+            <u><b>Resend PIN</b></u>
+        </font></string>
+    <string name="supportedPayment">The following credit card registration is \n required for payment</string>
+    <string name="tapToScan">Please Scan the QR code on the \ntop of Carrypark</string>
+    <string name="termsAndConditionsDes">
+</string>
+    <string name="scanqrCmraBtm">Please scan the QR code</string>
+    <string name="scaninfo">Scan the QR code displayed on the lock to connect to the device</string>
+    <string name="termsAndConditionsPrivacy"></string>
+    <string name="scanqr">Scan QR Code</string>
+    <string name="startScan">Please scan</string>
+    <string name="connetDev">Connect Device</string>
+    <string name="hi">Hi</string>
+    <string name="device">Device</string>
+    <string name="price">Price</string>
+    <string name="oldDev">This Device currently unavailable</string>
+    <string name="gtDirection">Get Direction</string>
+    <string name="priceList">Price List</string>
+    <string name="deposit">Check-In</string>
+    <string name="takeOut">Check-Out</string>
+    <string name="changePin">Change Pin</string>
+    <string name="changeEmail">Change Email</string>
+    <string name="changePhone">Change Phone Number</string>
+    <string name="confirmNewPhone">Confirm New Phone Number</string>
+    <string name="deregister">Deregistration</string>
+    <string name="logout">Logout</string>
+    <string name="help">HELP</string>
+    <string name="CommonQandA">Common Q&amp;A</string>
+    <string name="mailSend">Inquiry by email</string>
+    <string name="helpDesk">Help desk</string>
+    <string name="editAccountDetails">Edit account details</string>
+    <string name="currentEmail">Current Email</string>
+    <string name="newEmail">New Email </string>
+    <string name="confirmNewEmail">Confirm Email Address</string>
+    <string name="save">Save</string>
+    <string name="newPin">New Pin</string>
+    <string name="comfnewPin">Confirm New Pin</string>
+    <string name="currentPin">Current Pin</string>
+    <string name="instuct">Instructions to operate Carrypark lock System </string>
+    <string name="procedPay">Proceed to Payment</string>
+    <string name="pay">Pay</string>
+    <string name="exitApp">Logout From Carrypark</string>
+    <string name="lock">Lock</string>
+    <string name="unlock">UnLock</string>
+    <string name="hrlyRateNew">Hourly Price</string>
+    <string name="initialNew">Initial fee</string>
+    <string name="payment">Payment</string>
+    <string name="paymentType">Payment Type</string>
+    <string name="timeOut">Timeout</string>
+    <string name="initial">Initial</string>
+    <string name="fPaymnt">Final</string>
+    <string name="overtime">Overtime :</string>
+    <string name="finish">Finish</string>
+    <string name="intiHrRate">Hourly rate</string>
+    <string name="crrntTime">Current Time:</string>
+    <string name="strtTime">Start Time:</string>
+    <string name="endTime">End Time:</string>
+    <string name="timeDur">Duration Used</string>
+    <string name="takeOutBag">To take out baggage</string>
+    <string name="totalAmount">Total Amount</string>
+    <string name="paymentDateFormat">MMM d yyyy, h:mm a</string>
+    <string name="basicPrice">(Basic Price)</string>
+    <string name="deposit_time">Deposit time</string>
+    <string name="deposit_time_">Deposit Time:</string>
+    <string name="plsNote">Please note:</string>
+    <string name="plsNoteDtl">Please come to pick up your baggage before</string>
+    <string name="payment_fee_">Payment fee:</string>
+    <string name="paymentScss">Payment Received</string>
+    <string name="free_of_charges">Payment fee: Free </string>
+    <string name="giffInst"> Please set your baggage in place\nWhen you have finished setting,\n tap Lock</string>
+    <string name="unlockInfo">Tap unlock to raise the lock lever</string>
+    <string name="successInfoLock">Your baggage is checked in. \nPlease be sure to return your baggage before the check-in time</string>
+    <string name="successInfoLockRed">Please press the scan button below to check in your next baggage.</string>
+    <string name="successInfoUnlock">Please take out your baggage\nWe look forward to using Carrypark again.</string>
+    <string name="successInfoUnlockRed">Please press the scan button below to take out the next baggage.</string>
+    <string name="succUnlock">Thank you</string>
+    <string name="succLock">Locked</string>
+    <string name="noLockedDev">No Locked Devices found</string>
+    <string name="noLockedDescp">Use the Scan feature to add a New Locker Device</string>
+    <string name="bleNotavbldesc">Bluetooth Not Available, please make sure that your bluetooth is ON</string>
+    <string name="bleNotavbl">Bluetooth Not Available</string>
+    <string name="alipayNotSupport">Alipay not support now</string>
+    <string name="bltNotDiscoverChkOut">Locker device not discovered.</string>
+    <string name="bltNotDiscoverChkIn">Locker device not discovered. </string>
+    <string name="leverDownAlert">Please lower the lock lever </string>
+    <string name="tapLockButton">Please tap Lock button</string>
+    <string name="PaymentCancelled">Payment Cancelled</string>
+    <string name="bleReScan">Locker device not discovered. Are you sure want to rescan</string>
+    <string name="free">Free</string>
+    <string name="Location">Location</string>
+    <string name="deRegister">Do you want to delete your user account?</string>
+    <string name="allEmailNeed">All fields should be filled</string>
+    <string name="Emailmismatch">New email and Confirmation email do not match</string>
+    <string name="phoneNumMismatch">New phone number and Confirmation phone number do not match</string>
+    <string name="bleSearching">Connecting,Please wait</string>
+    <string name="receipt">Receipt</string>
+    <string name="temporaryBaggage">Temporary baggage storage service</string>
+    <string name="carryparkCoLtd">Carry Park Co., Ltd.</string>
+    <string name="iJustReceivedAbove">I just received the above</string>
+    <string name="lookingForward">We look forward to seeing you again.</string>
+    <string name="contactUs">Contact Us:</string>
+    <string name="invoiceDownload">Download</string>
+    <string name="show_invoice">Show Invoice</string>
+    <string name="newPhone">New Phone number</string>
+
+
+    <!-- required for android-->
+    <string name="home">Home</string>
+    <string name="title_notifications">More</string>
+    <string name="device_name">Device Name</string>
+    <string name="unlock_charge_info_one">Excess charge will be added when you take out </string>
+    <string name="avilable_device">Avilable device:</string>
+    <string name="place">Location: </string>
+    <string name="date_of_use">Date of use</string>
+    <string name="ok">OK</string>
+    <string name="tap_the_button_etc_existing_user_etc">Tap the button below to setup your existing \n account on this</string>
+    <string name="carry_park_no">Carrypark No : 1235368002</string>
+    <string name="change_language">Change Language</string>
+    <string name="camera_per">We need to access your camera for scanning QR code</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="validation_error">Validation Error</string>
+    <string name="please_try_again">Something went wrong. Please try again</string>
+    <string name="pairing_request">PAIRING requested\n-> Perform pairing steps. Connect again</string>
+    <string name="bluetooth_not_support">Bluetooth not support</string>
+    <string name="upholdHandle">Please uphold the handle</string>
+    <string name="all_pin_required">All pin information must be entered</string>
+    <string name="location_permission_title">Location permission required</string>
+    <string name="location_permission_message">This app does not use location information, but scanning for Bluetooth LE devices requires this permission</string>
+    <string name="location_denied_title">Location permission denied</string>
+    <string name="location_denied_message">As location permission has not been granted, this app cannot scan for Bluetooth LE devices.</string>
+    <string name="locationacees1">This app needs location access</string>
+    <string name="locationaccess2">Please grant location access so this app can detect peripherals.</string>
+    <string name="selected_today">Today\'s date is selected Please select another</string>
+
+    <string name="Failed_connected">Failed to connect to the device</string>
+    <string name="init_pay">Initial Payment not occurred</string>
+    <string name="iswebchat">WebChat not support now</string>
+    <string name="hrs">24 Hours</string>
+    <string name="done">DONE</string>
+    <string name="empty_dob">Please select date of birth</string>
+    <string name="not_reg">You are not registered.</string>
+
+    <string name="enter_username">Enter name</string>
+    <string name="phone_eror">Phone number must be of length 4-14</string>
+    <string name="nationality">Nationality</string>
+    <string name="emptycountry">Nationality cannot be empty</string>
+    <string name="version">Version: 16.0.1</string>
+    <string name="search">Search</string>
+    <string name="api_error">This device currently can not be used</string>
+    <string name="api_error_error_msg">Device data does not match</string>2
+
+    <string name="ErrorMessage">An error has occurred on the locker device!<br>Please contact us as soon as possible using the contact information below</br>.<br>We apologize for any inconvenience.</br></string>
+
+    <string name="MaintenanceCompany">contact company : </string>
+    <string name="MaintenancePerson">person in charge : </string>
+    <string name="MaintenancePersonEmail">person in charge Email : </string>
+    <string name="MaintenancePersonPhone">person in charge Phone : </string>
+
+
+
+</resources>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--app level string files not screen based.So don't edit this-->
+
+    <string name="USER_PREFERENCES">carry_park</string>
+    <string name="app_name">キャリーパーク</string>
+    <!--Screen level text files-->
+    // Alert
+    <string name="alert">アラート !!</string>
+    <string name="confirm">確認</string>
+    <string name="cancel">キャンセル</string>
+    <string name="emptyMobile">国名、携帯電話は必須です</string>
+    <string name="invalidEmail">メールアドレスを入力してください</string>
+    <string name="pinEmpty">暗証番号は必須です</string>
+    <string name="pinInvalid">暗証番号には4桁の数字を含める\n必要があります</string>
+    <string name="pinLogValid">有効な暗証番号を入力して下さい</string>
+
+    <string name="OTPResent">暗証番号送付完了</string>
+    <string name="OTPpromt">メールアドレスに送信された暗証番号を入力してください</string>
+    <string name="InvalidDevice">無効なスキャンされたデバイス</string>
+    <string name="OperfailedExtnd">インターネット接続に問題がある可能性があります。もう一度やり直してください！</string>
+    <string name="btryPoweLock">バッテリー残量がご利用頂くには少な過ぎますので、別のCarryparkをご利用下さい。</string>
+    <string name="btryPower">バッテリー残量がご利用頂くには少な過ぎます</string>
+    <string name="deviceAuth">デバイスは一致しません。サービスセンターにお問い合わせください</string>
+    <string name="noDeviceAvailable">利用可能なロッカーはありません</string>
+    <string name="enablelocation">お近くのロッカーを見つけるため、現在位置の照会を許可してください</string>
+    <string name="lgmsg">ログアウトしますか？</string>
+    <string name="scanCheckinMsg">預け入れますか?</string>
+    <string name="scanCheckOutMsg">本当にチェックアウトしますか?</string>
+    <string name="pinmismatch">暗証番号が一致しません</string>
+    <string name="pinChangeSuccess">暗証番号の変更完了</string>
+    <string name="upholdHandle">ロックバーを上げて下さい</string>
+    <string name="deviceConfirmation">を 選びました</string>
+    <string name="timeoutError">時間切れです。再度お試し下さい。</string>
+    <string name="success">成功</string>
+    <string name="scan">スキャン</string>
+    <string name="inuse">使用中</string>
+    <string name="welcome">Carryparkへようこそ</string> <!--c-->
+    <string name="welSub1">大型手荷物専用預かり監視システム</string>
+    <string name="welSub2">セキュリティと監視システム</string>
+    <string name="getStarted">開始</string>
+    <string name="newUserLbl">新規登録、または既にアカウントをお持ちの方は ログインしてください</string>
+    <string name="newUserBtn">新規登録</string>
+    <string name="newAccount">新規アカウント作成</string>
+    <string name="fullName">名前</string>
+    <string name="phNumber">携帯番号</string>
+    <string name="EmAddrs">メールアドレス</string>
+    <string name="DOB">生年月日</string>
+    <string name="proceed">次へ</string>
+    <string name="pin">暗証番号</string>
+    <string name="fpin">暗証番号忘れ</string>
+    <string name="termsandCondReg">利用規約をお読みいただき、同意される方のみ「登録」ボタンを押してください。Carryparkはプライバシーポリシーにしたがってお客様の情報を取り扱います。</string>
+    <string name="register">登録する</string>
+    <string name="terms">利用規約</string>
+    <string name="privacy"><font color='#ED1B24'>プライバシーポリシー  </font></string>
+    <string name="close">閉じる</string>
+    <string name="acceptTermsCond">使用条件を承認して下さい</string>
+    <string name="login">ログイン</string>
+    <string name="diffrntUser">機種変更された方はこちらから</string>
+    <string name="forgotPin">暗証番号を忘れた方はこちらから</string>
+    <string name="dont_have_an_accnt">アカウントをお持ちですか？</string>
+    <string name="creatAcc">アカウント作成</string>
+    <string name="enterPin">暗証番号を入力</string>
+    <string name="btnSearchLocation">最も近い施錠デバイスを探す</string>
+    <string name="btnResendOtp">暗証番号の再送信</string>
+    <string name="btnSendPIN">送信</string>
+    <string name="macIdUsed">デバイスは既に登録されています</string>
+    <string name="lblDintGetPin">暗証番号を受け取ってませんか？
+        <font color='#ED1B24'>
+            <u><b>暗証番号の再送信</b></u>
+        </font></string>
+    <string name="supportedPayment">お支払の際には以下のクレジットカード\n登録が必要です</string>
+    <string name="tapToScan">Carryparkの上部に貼っている\nQRコードを読み取ってください</string>
+    <string name="termsAndConditionsDes"></string>
+    <string name="scanqrCmraBtm">QRコードをスキャンしてください</string>
+    <string name="scaninfo">施錠で表示されたQRコードを読み取ってデバイスに接続して下さい。</string>
+    <string name="termsAndConditionsPrivacy"> </string>
+    <string name="scanqr">QRコードをスキャン</string>
+    <string name="startScan">スキャンする</string>
+    <string name="connetDev">デバイスを接続</string>
+    <string name="hi">はい</string>
+    <string name="device">デバイス</string>
+    <string name="price">初期料金１時間分</string>
+    <string name="oldDev">現在使用できません</string>
+    <string name="gtDirection">現地への案内図</string>
+    <string name="priceList">料金表</string>
+    <string name="deposit">預け入れる</string>
+    <string name="takeOut">取り出す</string>
+    <string name="changePin">暗証番号の変更</string>
+    <string name="changeEmail">メールアドレスの変更</string>
+    <string name="changePhone">携帯番号の変更</string>
+    <string name="confirmNewPhone"> 新しい携帯番号の確認</string>
+    <string name="deregister">退会</string>
+    <string name="logout">ログアウト</string>
+    <string name="help">ＨＥＬＰ一覧</string>
+    <string name="CommonQandA">よくあるQ&amp;A</string>
+    <string name="mailSend">メールでの問い合わせ</string>
+    <string name="helpDesk">ヘルプデスク</string>
+    <string name="editAccountDetails">登録情報変更</string>
+    <string name="currentEmail">現在のメールアドレス</string>
+    <string name="newEmail">新規メールアドレス</string>
+    <string name="confirmNewEmail">新規メールアドレスの確認</string>
+    <string name="save">保存</string>
+    <string name="newPin">新しい暗証番号</string>
+    <string name="comfnewPin">新しい暗証番号確認</string>
+    <string name="currentPin">現在の暗証番号</string>
+    <string name="instuct">Carrypark施錠システムの操作方法</string>
+    <string name="procedPay">支払に進む</string>
+    <string name="pay">支払う</string>
+    <string name="exitApp">終了する</string>
+    <string name="lock">施錠へ</string>
+    <string name="unlock">解錠</string>
+    <string name="hrlyRateNew">1時間料金</string>
+    <string name="initialNew">初期料金</string>
+    <string name="payment">支払へ</string>
+    <string name="paymentType">支払種別</string>
+    <string name="timeOut">Timeout</string>
+    <string name="initial">初期</string>
+    <string name="fPaymnt">最終的な支払</string>
+    <string name="overtime">超過時間 :</string>
+    <string name="finish">終了する</string>
+    <string name="intiHrRate">1時間料金</string>
+    <string name="crrntTime">現在の時刻:</string>
+    <string name="strtTime">開始時間:</string>
+    <string name="endTime">終了時間:</string>
+    <string name="timeDur">使用時間</string>
+    <string name="takeOutBag">手荷物の取出しへ</string>
+    <string name="totalAmount">精算料金</string>
+    <string name="paymentDateFormat">>MMM d yyyy,\n h:mm a</string>
+    <string name="basicPrice">(基本 単価)</string>
+    <string name="deposit_time">預入時間</string>
+    <string name="deposit_time_">預入時間:</string>
+    <string name="plsNote">ご注意：</string>
+    <string name="plsNoteDtl">までに手荷物を取りに来てください</string>
+    <string name="payment_fee_">お支払料金：</string>
+    <string name="paymentScss">支払完了</string>
+    <string name="free_of_charges">お支払料金：使用料無料</string>
+    <string name="giffInst">所定の位置に手荷物をセットして下さい \n
+        セットが終わったら、「施錠へ」をタップして下さい</string>
+    <string name="unlockInfo">解錠 をタップすると ロックレバーが 上がります</string>
+    <string name="successInfoLock">手荷物をお預かりしました\n預入時間内に取り出してください</string>
+    <string name="successInfoLockRed">続けて手荷物を預ける場合、メニューの\n「スキャン」をタップしてください</string>
+    <!--
+        <string name="successInfoUnlock">ロック開錠を完了しましたのでカバンを忘れずにお取りください。Carryparkのまたのご利用を心からお待ちしています</string>
+    -->
+    <string name="successInfoUnlock">手荷物を取出してください\nまたのご利用をお待ちしています</string>
+    <string name="successInfoUnlockRed">続けて手荷物を取出す場合、メニューの\n「スキャン」をタップしてください</string>
+    <string name="succUnlock">ありがとうございました</string>
+    <string name="succLock">施錠されました</string>
+    <string name="noLockedDev">ロックされたデバイスは見つかりませんでした</string>
+    <string name="noLockedDescp">スキャン機能を使用して新しいロッカーデバイスを追加する</string>
+    <string name="bleNotavbldesc">Bluetoothは無効です。ONになっているか確認して下さい</string>
+    <string name="bleNotavbl">Bluetoothは無効です</string>
+    <string name="alipayNotSupport">アリペイは現在サポート対象ではありません</string>
+    <string name="bltNotDiscoverChkOut">ロッカーデバイスは見付かりませんでした。サービスセンターにご連絡下さい</string>
+    <string name="bltNotDiscoverChkIn">ロッカーデバイスは見付かりませんでした。 別のロッカーをご利用頂くか、 サービスセンターにご連絡下さい。</string>
+    <string name="leverDownAlert">ガッシャっという音がしたら、ロックレバーを\n下にさげてください</string>
+    <string name="tapLockButton">施錠ボタンをタップしてください</string>
+    <string name="PaymentCancelled">キャンセルされた支払い</string>
+    <string name="bleReScan">もう一度お試しください</string>
+    <string name="free">空き</string>
+    <string name="Location">場所</string>
+    <string name="deRegister">会員登録を削除されますか？</string>
+    <string name="allEmailNeed">すべての情報を入力する\n必要があります</string>
+    <string name="Emailmismatch">新規メールアドレスは一致しません</string>
+    <string name="phoneNumMismatch">新しい携帯番号が一致しません</string>
+    <string name="bleSearching">接続中です、しばらく \nお待ちください</string>
+    <string name="receipt">領 \u0020 収  \u0020    書</string>
+    <string name="temporaryBaggage">手荷物一時預かりサービス</string>
+    <string name="carryparkCoLtd">キャリーパーク株式会社</string>
+    <string name="iJustReceivedAbove">上記正に領収いたしました。</string>
+    <string name="lookingForward">またのご利用をお待ちしております。</string>
+    <string name="contactUs">お問い合わせ先：</string>
+    <string name="invoiceDownload">ダウンロード</string>
+    <string name="show_invoice">領収書を表示</string>
+    <string name="newPhone">新しい携帯番号</string>
+
+
+    <!-- required for android-->
+
+    <string name="home">ホーム</string>
+    <string name="title_notifications">設定</string>
+    <string name="device_name">装置名</string>
+    <string name="unlock_charge_info_one">延長料金は取り出す時に加算されます。</string>
+    <string name="avilable_device">設置台数：</string>
+    <string name="place">場所:</string>
+    <string name="date_of_use">ご利用日</string>
+    <string name="ok">OK</string>
+    <string name="tap_the_button_etc_existing_user_etc">下のボタンを押して新しいアカウントを設定して下さい</string>
+    <string name="carry_park_no">キャリーパーク番号 : 1235368002</string>
+    <string name="change_language">表示言語を変更</string>
+    <string name="camera_per">QRコードをスキャンするためにカメラに接続する必要があります。</string>
+ <string name="no_internet">インターネットに接続されていません</string>
+ <string name="validation_error">検証エラー</string>
+ <string name="please_try_again">エラーが起きました。再度お試しください</string>
+ <string name="pairing_request">请求配对\ n->执行配对步骤。 重新连接</string>
+ <string name="bluetooth_not_support">Bluetoothは対応していません。</string>
+ <string name="all_pin_required">すべての暗証番号情報を入力する必要があります</string>
+ <string name="location_permission_title">位置情報を使用する許可が必要です。</string>
+ <string name="location_permission_message">このアプリは位置情報を使用しませんが、Bluetooth LEデバイスのスキャンのためこの許可が必要です。</string>
+ <string name="location_denied_title">Location permission denied</string>
+ <string name="location_denied_message">位置情報の使用が許可されていないため、このアプリはBluetooth LEデバイスをスキャンできません。</string>
+ <string name="locationacees1">このアプリには位置情報へのアクセスが必要です</string>
+ <string name="locationaccess2">このアプリが周辺機器を検出できるように、位置情報へのアクセスを許可してください。</string>
+ <string name="selected_today">今日の日付が選択されています別を選択してください</string>
+ <string name="Failed_connected">デバイスに接続できませんでした</string>
+ <string name="init_pay">基本料金支払は発生しませんでした。</string>
+ <string name="iswebchat">WebChatは現在サポートされていません。</string>
+ <string name="hrs">24 時間</string>
+ <string name="done">DONE</string>
+ <string name="empty_dob">生年月日は必須です</string>
+ <string name="not_reg">登録されていません</string>
+ <string name="enter_username">名前は必須です</string>
+ <string name="phone_eror">無効な携帯番号</string>
+    <string name="nationality"> 国籍</string>
+    <string name="emptycountry">国籍を入力してください</string>
+    <string name="version">バージョン: 16.0.1</string>
+    <string name="search">検索</string>
+    <string name="api_error"> 現在使用できません </string>
+    <string name="api_error_error_msg">デバイス情報が一致していません</string>
+
+
+
+    <string name="ErrorMessage">ロッカーデバイスにエラーが発生しました<br>以下の連絡先に大至急連絡をお願いします</br><br>ご不便をおかけし、大変申し訳ございません</br></string>
+
+    <string name="MaintenanceCompany">お問い合わせ先会社名 : </string>
+    <string name="MaintenancePerson">担当者名 : </string>
+    <string name="MaintenancePersonEmail">担当者メールアドレス : </string>
+    <string name="MaintenancePersonPhone">担当者電話番号 : </string>
+
+</resources>

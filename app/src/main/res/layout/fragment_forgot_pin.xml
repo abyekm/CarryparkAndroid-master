@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@color/colorPrimary"
+                                                   tools:context="net.ui.ForgotPinActivity"
+>
+
+
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/editTexPassword"
+        android:layout_alignStart="@+id/editTextCPassword"
+        android:layout_alignLeft="@+id/editTextCPassword"
+        android:layout_alignEnd="@+id/editTextCPassword"
+        android:layout_alignRight="@+id/editTextCPassword"
+        android:background="@drawable/btnbg_curved_accent_red_bg"
+        android:text="@string/proceed"
+        style="@style/ButtonStyle"
+
+        android:textSize="@dimen/text_size_button"
+        android:textAllCaps="false"
+        android:textColor="@color/colorButtonWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"/>
+    <LinearLayout
+        android:id="@+id/ll_outer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@color/colorPrimary"
+                      android:orientation="vertical"
+                      android:weightSum="3">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:layout_weight=".75">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_weight=".70"
+                            android:paddingTop="40dp"
+                            android:paddingBottom="40dp"
+                            android:paddingRight="30dp"
+                            android:id="@+id/img_back_arrow"
+                            app:srcCompat="@drawable/ic_left_arrow"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.6"
+                            android:layout_height="100dp"
+                            android:padding="25dp"
+                            android:layout_gravity="center|top"
+                            android:src="@drawable/cp_withouticon_logo"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight=".70"
+                            android:visibility="gone"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center|top"
+                            android:src="@drawable/cp_withouticon_logo"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|start"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="22sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="@string/forgotPin"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.25"
+                android:paddingTop="15sp"
+                android:background="@drawable/curved_top_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin_large"
+                    android:paddingRight="@dimen/activity_horizontal_margin_large"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_email_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                    >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/et_email_address"
+                            style="@style/hintEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/EmAddrs"
+                            android:drawableLeft="@drawable/ic_email"
+                            android:textColorHint="@color/colorBlack"
+                            android:inputType="textEmailAddress" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                    >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/et_dob"
+                            style="@style/hintEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:editable="false"
+                            android:focusable="false"
+                            android:drawableLeft="@drawable/ic_date_of_birth"
+                            android:textColorHint="@color/colorBlack"
+                            android:hint="@string/DOB"
+                        />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

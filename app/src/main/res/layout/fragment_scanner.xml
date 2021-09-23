@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimary"
+              android:orientation="vertical"
+              android:weightSum="3"
+              tools:context="net.ui.ForgotPinActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight=".75">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <ImageView
+                    android:id="@+id/img_back_arrow"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight=".70"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="40dp"
+                    android:paddingRight="30dp"
+                    app:srcCompat="@drawable/ic_left_arrow"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.6"
+                    android:layout_height="100dp"
+                    android:padding="25dp"
+                    android:layout_gravity="center|top"
+                    android:src="@drawable/cp_withouticon_logo"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".70"
+                    android:visibility="gone"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center|top"
+                    android:src="@drawable/cp_withouticon_logo"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|start"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/scanqr"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_scan_parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.25"
+        android:paddingTop="10dp"
+        android:weightSum="2.25"
+
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                      android:layout_weight="1.60">
+
+
+
+            <FrameLayout
+                android:id="@+id/content_frame"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" tools:layout_editor_absoluteY="61dp">
+
+                <com.budiyev.android.codescanner.CodeScannerView
+                    android:id="@+id/scanner_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="6dp"
+                    app:autoFocusButtonColor="@android:color/white"
+                    app:autoFocusButtonVisible="false"
+                    app:flashButtonColor="@android:color/white"
+                    app:flashButtonVisible="false"
+                    app:frameColor="@color/colorPrimary"
+                    app:frameCornersSize="65dp"
+                    app:frameCornersRadius="1dp"
+                    app:frameAspectRatioWidth="1"
+                    app:frameAspectRatioHeight="1"
+                    app:frameSize="0.60"
+                    app:frameThickness="14dp"
+                    app:maskColor="@android:color/transparent"/>
+                <LinearLayout android:layout_width="match_parent"
+                              android:orientation="horizontal"
+
+                              android:layout_height="wrap_content">
+                    <ImageView android:layout_width="40dp"
+                               android:src="@drawable/left_curve"
+
+                               android:layout_height="40dp"/>
+                    <TextView android:layout_width="0dp"
+                              android:layout_weight="1"
+                              android:layout_height="wrap_content"/>
+                    <ImageView android:layout_width="40dp"
+                               android:src="@drawable/right_curve"
+                               android:layout_height="40dp"/>
+                </LinearLayout>
+
+
+
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                      android:layout_weight=".65">
+
+            <TextView android:layout_width="match_parent"
+                      android:background="#fff"
+                      android:layout_gravity="bottom"
+                      android:text="@string/scanqrCmraBtm"
+                      android:gravity="center"
+                      android:textSize="17sp"
+                      android:textColor="@color/colorBlack"
+                      android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

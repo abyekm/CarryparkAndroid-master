@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimary"
+              tools:context="net.ui.ForgotPinActivity"
+              android:orientation="vertical"
+              android:weightSum="3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight=".75">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight=".70"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="40dp"
+                    android:paddingRight="30dp"
+                    android:id="@+id/img_back_arrow"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/ic_left_arrow"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.6"
+                    android:layout_height="100dp"
+                    android:padding="25dp"
+                    android:layout_gravity="center|top"
+                    android:src="@drawable/cp_withouticon_logo"/>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight=".70"
+                    android:visibility="gone"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center|top"
+                    android:src="@drawable/cp_withouticon_logo"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|start"
+                android:layout_marginLeft="10dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/login"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.25"
+        android:paddingTop="15sp"
+        android:background="@drawable/curved_top_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin_large"
+            android:paddingRight="@dimen/activity_horizontal_margin_large"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_email_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_email_address"
+                    style="@style/hintEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:hint="@string/EmAddrs"
+                    android:textColorHint="@color/colorBlack"
+                    android:inputType="textEmailAddress" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_dob"
+                    style="@style/hintEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:drawableLeft="@drawable/ic_date_of_birth"
+                    android:textColorHint="@color/colorBlack"
+                    android:hint="@string/DOB"
+                />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_mobile_number"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+            >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_pin"
+                    style="@style/hintEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_pin"
+                    android:hint="@string/pin"
+                    android:inputType="numberPassword"
+                    android:maxLength="4"
+                    android:textColorHint="@color/colorBlack" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center"
+                android:paddingBottom="30dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_forgot_pin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="normal"
+                    android:text="@string/fpin"/>
+                <Button
+                    android:id="@+id/button_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/ButtonStyle"
+
+                    android:background="@drawable/btnbg_curved_accent_red_bg"
+                    android:text="@string/login"
+                    android:textSize="@dimen/text_size_button"
+                    android:textColor="@color/colorButtonWhite"
+                    android:textAllCaps="false"
+
+                    android:layout_below="@+id/editTexPassword"
+                    android:layout_alignLeft="@+id/editTextCPassword"
+                    android:layout_alignStart="@+id/editTextCPassword"
+                    android:layout_alignRight="@+id/editTextCPassword"
+                    android:layout_alignEnd="@+id/editTextCPassword" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="@string/dont_have_an_accnt"/>
+                    <TextView
+                        android:id="@+id/tv_create_accnt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:layout_marginLeft="10sp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:text="@string/creatAcc"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_bag_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+    >
+        <include
+            layout="@layout/activity_resendotp"
+            android:id="@+id/activity_resendotp"
+        />
+</LinearLayout>
+</LinearLayout>

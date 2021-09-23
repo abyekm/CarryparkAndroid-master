@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_alignParentTop="true">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/btnClose"
+        android:text="close"/>
+
+        <include
+            layout="@layout/fragment_data_ter"
+            android:id="@+id/layout_paymentSuccess"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_pdf_create"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_alignParentTop="true">
+
+
+        <include
+            layout="@layout/dialogue_invoice"
+            android:id="@+id/ll_invoice"
+        />
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <!-- bottom tab icons-->
+    <LinearLayout
+        android:id="@+id/ll_footbar2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_weight="1"
+                      android:layout_margin="5dp"
+                      android:gravity="center"
+                      android:layout_height="match_parent">
+            <ImageView android:layout_width="30dp"
+                       android:layout_marginLeft="5dp"
+                       android:layout_weight="1"
+
+                       android:src="@drawable/scan_red"
+                       android:layout_height="30dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_margin="3dp"
+                      android:textSize="18sp"
+                      android:layout_weight="1"
+                      android:textColor="@color/colorAccent"
+                      android:text="@string/scan"/>
+
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#6E6E7E" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:clickable="true"
+                      android:id="@+id/ll_home"
+                      android:layout_height="match_parent">
+            <ImageView android:layout_width="30dp"
+
+                       android:iconTint="@color/colorButtonWhite"
+                       android:src="@drawable/innuse_black"
+                       android:layout_weight="1"
+                       android:layout_height="30dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_margin="3dp"
+                      android:textSize="18sp"
+                      android:layout_weight="1"
+                      android:textColor="@color/colorBlack"
+                      android:text="@string/home"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#6E6E7E" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_weight="1"
+                      android:gravity="center"
+
+                      android:layout_height="match_parent">
+            <ImageView android:layout_width="30dp"
+                       android:src="@drawable/settings_black"
+                       android:layout_marginRight="10dp"
+                       android:layout_height="30dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="18sp"
+                      android:layout_marginLeft="10dp"
+                      android:textColor="@color/colorBlack" android:text="@string/title_notifications"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_footbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_weight="1"
+                      android:clickable="false"
+
+                      android:id="@+id/ll_scan_button"
+
+                      android:gravity="center"
+                      android:layout_height="match_parent">
+            <ImageView android:layout_width="30dp"
+                       android:src="@drawable/scan_black"
+                       android:id="@+id/iv_scan"
+                       android:layout_weight="1"
+                       android:layout_marginLeft="10dp"
+                       android:layout_height="30dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_margin="3dp"
+                      android:textSize="18sp"
+                      android:id="@+id/tv_scan"
+                      android:layout_weight="1"
+                      android:textColor="@color/colorBlack"
+                      android:text="@string/scan"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#6E6E7E" />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_weight="1"
+                      android:id="@+id/ll_inuse"
+                      android:gravity="center"
+
+                      android:layout_height="match_parent">
+            <ImageView android:layout_width="30dp"
+android:layout_marginLeft="10dp"
+                       android:id="@+id/iv_inuse"
+                       android:iconTint="@color/colorButtonWhite"
+                       android:src="@drawable/innuse_black"
+                       android:layout_weight="1"
+                       android:layout_height="30dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_margin="3dp"
+                      android:textSize="18sp"
+                      android:layout_weight="1"
+                      android:textColor="@color/colorBlack"
+                      android:id="@+id/tv_inuse"
+                      android:text="@string/home"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#6E6E7E" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:id="@+id/ll_more"
+
+                      android:layout_height="match_parent">
+            <ImageView android:layout_width="30dp"
+                       android:layout_marginLeft="10dp"
+                       android:src="@drawable/settings_black"
+                       android:id="@+id/iv_more"
+                       android:layout_marginRight="10dp"
+                       android:layout_height="30dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_margin="3dp"
+                      android:layout_marginLeft="10dp"
+                      android:textSize="18sp"
+                      android:id="@+id/tv_more"
+                      android:textColor="@color/colorBlack" android:text="@string/title_notifications"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+

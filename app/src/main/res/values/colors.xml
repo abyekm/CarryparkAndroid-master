@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B6B6B6</color>
+    <color name="colorPrimaryDark">#B6B6B6</color>
+    <color name="colorPrimaryDarkK">#9C9C9C</color>
+    <color name="colorAccent">#ED1B24</color>
+    <color name="colorNavIcon">#dae9f6</color>
+    <color name="colorNavText">#01294b</color>
+    <color name="colorPrimaryDar_view">#666464</color>
+
+
+
+    <color name="colorButtonGrey">#545454</color>
+    <color name="colorButtonLightGrey">#858484</color>
+    <color name="colorTextAsh">#545454</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorButtonWhite">#F6F6F8</color>
+    <color name="colorBGDarkWhite">#E7E7E7</color>
+    <color name="colorBGDarkDia">#F7F3F3</color>
+
+    <color name="transparent_color">#00000000</color>
+
+    <color name="colorRecieveText">#00FF00</color>
+    <color name="colorSendText">#82CAFF</color>
+    <color name="colorStatusText">#FFDB58</color>
+    <color name="colorCancel">#386E96</color>
+    <color name="colorSendTex">#2496EC</color>
+    <color name="color_done">#2496EC</color>
+
+
+
+</resources>
